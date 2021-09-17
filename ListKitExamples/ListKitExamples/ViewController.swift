@@ -13,6 +13,7 @@ class ViewController: BaseViewController {
         case staticListExample
         case colorGridExample
         case complexLayoutExample
+        case emojiExample
     }
     
     override func viewDidLoad() {
@@ -33,6 +34,9 @@ class ViewController: BaseViewController {
                     ExampleComponent(title: "Complex Layout Example") { [weak self] in
                         self?.goto(scene: .complexLayoutExample)
                     }
+                    ExampleComponent(title: "Emoji Example") { [weak self] in
+                        self?.goto(scene: .emojiExample)
+                    }
                 }
             }
         }
@@ -47,6 +51,8 @@ class ViewController: BaseViewController {
             vc = ColorGridViewController()
         case .complexLayoutExample:
             vc = ComplexLayoutViewController()
+        case .emojiExample:
+            vc = EmojiViewController()
         }
         navigationController?.pushViewController(vc, animated: true)
     }

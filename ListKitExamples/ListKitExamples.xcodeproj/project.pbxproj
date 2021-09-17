@@ -25,6 +25,9 @@
 		4EAB911026F4BA9C0012B453 /* ComplexLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910F26F4BA9C0012B453 /* ComplexLayoutViewController.swift */; };
 		4EAB911226F4BCF70012B453 /* ColorBox2Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911126F4BCF70012B453 /* ColorBox2Component.swift */; };
 		4EAB911426F4C1F50012B453 /* NumberBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911326F4C1F50012B453 /* NumberBoxComponent.swift */; };
+		4EAB911726F4D8670012B453 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911626F4D8670012B453 /* EmojiViewController.swift */; };
+		4EAB911926F4D99C0012B453 /* EmojiBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911826F4D99C0012B453 /* EmojiBoxComponent.swift */; };
+		4EAB911B26F4DAB50012B453 /* EmojiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911A26F4DAB50012B453 /* EmojiHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		4EAB910F26F4BA9C0012B453 /* ComplexLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexLayoutViewController.swift; sourceTree = "<group>"; };
 		4EAB911126F4BCF70012B453 /* ColorBox2Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBox2Component.swift; sourceTree = "<group>"; };
 		4EAB911326F4C1F50012B453 /* NumberBoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBoxComponent.swift; sourceTree = "<group>"; };
+		4EAB911626F4D8670012B453 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		4EAB911826F4D99C0012B453 /* EmojiBoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBoxComponent.swift; sourceTree = "<group>"; };
+		4EAB911A26F4DAB50012B453 /* EmojiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				4EAB90FC26F4AB160012B453 /* StaticListExample */,
 				4EAB910626F4B22C0012B453 /* ColorGridExample */,
 				4EAB910E26F4BA7E0012B453 /* ComplexLayoutExample */,
+				4EAB911526F4D84E0012B453 /* EmojiExample */,
 				4EAB90E026F4AA130012B453 /* AppDelegate.swift */,
 				4EAB90E226F4AA130012B453 /* SceneDelegate.swift */,
 				4EAB90FA26F4AA7C0012B453 /* BaseViewController.swift */,
@@ -112,6 +119,7 @@
 				4EAB910426F4B1FB0012B453 /* ColorBoxComponent.swift */,
 				4EAB911126F4BCF70012B453 /* ColorBox2Component.swift */,
 				4EAB911326F4C1F50012B453 /* NumberBoxComponent.swift */,
+				4EAB911826F4D99C0012B453 /* EmojiBoxComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -139,6 +147,15 @@
 				4EAB910F26F4BA9C0012B453 /* ComplexLayoutViewController.swift */,
 			);
 			path = ComplexLayoutExample;
+			sourceTree = "<group>";
+		};
+		4EAB911526F4D84E0012B453 /* EmojiExample */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB911626F4D8670012B453 /* EmojiViewController.swift */,
+				4EAB911A26F4DAB50012B453 /* EmojiHelper.swift */,
+			);
+			path = EmojiExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,11 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EAB911B26F4DAB50012B453 /* EmojiHelper.swift in Sources */,
 				4EAB910B26F4B3700012B453 /* SectionBackgroundComponent.swift in Sources */,
+				4EAB911926F4D99C0012B453 /* EmojiBoxComponent.swift in Sources */,
 				4EAB90E526F4AA130012B453 /* ViewController.swift in Sources */,
 				4EAB90FB26F4AA7C0012B453 /* BaseViewController.swift in Sources */,
 				4EAB90E126F4AA130012B453 /* AppDelegate.swift in Sources */,
 				4EAB910D26F4B90B0012B453 /* SectionHeaderComponent.swift in Sources */,
+				4EAB911726F4D8670012B453 /* EmojiViewController.swift in Sources */,
 				4EAB911226F4BCF70012B453 /* ColorBox2Component.swift in Sources */,
 				4EAB90E326F4AA130012B453 /* SceneDelegate.swift in Sources */,
 				4EAB910126F4AB670012B453 /* StaticListViewController.swift in Sources */,

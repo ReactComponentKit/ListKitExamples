@@ -11,15 +11,16 @@ import ListKit
 
 
 open class BaseViewController: UIViewController {
-    
-    
-    
     lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: ComposeRenderer.emptyLayout)
         return collectionView
     }()
     
-    open lazy var renderer: ComposeRenderer = ComposeRenderer(dataSource: PlainDataSource())
+    lazy var renderer: ComposeRenderer = ComposeRenderer(dataSource: dataSource)
+    
+    open var dataSource: DataSource {
+        PlainDataSource()
+    }
     
     open override func viewDidLoad() {
         super.viewDidLoad()
