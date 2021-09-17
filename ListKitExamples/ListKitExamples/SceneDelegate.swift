@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  01StaticList
+//  ListKitExamples
 //
-//  Created by burt on 2021/09/16.
+//  Created by burt on 2021/09/17.
 //
 
 import UIKit

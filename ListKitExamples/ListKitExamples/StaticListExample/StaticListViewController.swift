@@ -1,36 +1,15 @@
 //
-//  ViewController.swift
-//  01StaticList
+//  StaticListViewController.swift
+//  ListKitExamples
 //
-//  Created by burt on 2021/09/16.
+//  Created by burt on 2021/09/17.
 //
 
 import UIKit
-import SnapKit
 import ListKit
 
-class ViewController: UIViewController {
-    
-    private lazy var collectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: ComposeRenderer.emptyLayout)
-        return collectionView
-    }()
-    
-    private lazy var renderer: ComposeRenderer = ComposeRenderer(dataSource: PlainDataSource())
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = .white
-                collectionView.backgroundColor = .clear
-        self.view.addSubview(collectionView)
-        collectionView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
-        renderer.target = collectionView
-        render()
-    }
-    
-    private func render() {
+class StaticListViewController: BaseViewController {
+    override func render() {
         renderer.render {
             Section(id: UUID()) {
                 HGroup(width: .fractionalWidth(1.0), height: .estimated(30)) {
@@ -67,4 +46,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
