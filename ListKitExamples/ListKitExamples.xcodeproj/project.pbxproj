@@ -28,6 +28,7 @@
 		4EAB911726F4D8670012B453 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911626F4D8670012B453 /* EmojiViewController.swift */; };
 		4EAB911926F4D99C0012B453 /* EmojiBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911826F4D99C0012B453 /* EmojiBoxComponent.swift */; };
 		4EAB911B26F4DAB50012B453 /* EmojiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911A26F4DAB50012B453 /* EmojiHelper.swift */; };
+		4EAB911E26F4F0780012B453 /* CustomEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911D26F4F0780012B453 /* CustomEffectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		4EAB911626F4D8670012B453 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 		4EAB911826F4D99C0012B453 /* EmojiBoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBoxComponent.swift; sourceTree = "<group>"; };
 		4EAB911A26F4DAB50012B453 /* EmojiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiHelper.swift; sourceTree = "<group>"; };
+		4EAB911D26F4F0780012B453 /* CustomEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEffectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				4EAB910626F4B22C0012B453 /* ColorGridExample */,
 				4EAB910E26F4BA7E0012B453 /* ComplexLayoutExample */,
 				4EAB911526F4D84E0012B453 /* EmojiExample */,
+				4EAB911C26F4F0590012B453 /* CustomEffectExample */,
 				4EAB90E026F4AA130012B453 /* AppDelegate.swift */,
 				4EAB90E226F4AA130012B453 /* SceneDelegate.swift */,
 				4EAB90FA26F4AA7C0012B453 /* BaseViewController.swift */,
@@ -156,6 +159,14 @@
 				4EAB911A26F4DAB50012B453 /* EmojiHelper.swift */,
 			);
 			path = EmojiExample;
+			sourceTree = "<group>";
+		};
+		4EAB911C26F4F0590012B453 /* CustomEffectExample */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB911D26F4F0780012B453 /* CustomEffectViewController.swift */,
+			);
+			path = CustomEffectExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 			files = (
 				4EAB911B26F4DAB50012B453 /* EmojiHelper.swift in Sources */,
 				4EAB910B26F4B3700012B453 /* SectionBackgroundComponent.swift in Sources */,
+				4EAB911E26F4F0780012B453 /* CustomEffectViewController.swift in Sources */,
 				4EAB911926F4D99C0012B453 /* EmojiBoxComponent.swift in Sources */,
 				4EAB90E526F4AA130012B453 /* ViewController.swift in Sources */,
 				4EAB90FB26F4AA7C0012B453 /* BaseViewController.swift in Sources */,
