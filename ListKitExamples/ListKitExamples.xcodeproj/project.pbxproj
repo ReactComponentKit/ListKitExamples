@@ -16,7 +16,6 @@
 		4EAB90F626F4AA3D0012B453 /* ListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4EAB90F526F4AA3D0012B453 /* ListKit */; };
 		4EAB90F926F4AA500012B453 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4EAB90F826F4AA500012B453 /* SnapKit */; };
 		4EAB90FB26F4AA7C0012B453 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90FA26F4AA7C0012B453 /* BaseViewController.swift */; };
-		4EAB90FF26F4AB380012B453 /* NumberBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90FE26F4AB380012B453 /* NumberBoxComponent.swift */; };
 		4EAB910126F4AB670012B453 /* StaticListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910026F4AB670012B453 /* StaticListViewController.swift */; };
 		4EAB910326F4ABC20012B453 /* ExampleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910226F4ABC20012B453 /* ExampleComponent.swift */; };
 		4EAB910526F4B1FB0012B453 /* ColorBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910426F4B1FB0012B453 /* ColorBoxComponent.swift */; };
@@ -25,6 +24,7 @@
 		4EAB910D26F4B90B0012B453 /* SectionHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910C26F4B90B0012B453 /* SectionHeaderComponent.swift */; };
 		4EAB911026F4BA9C0012B453 /* ComplexLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910F26F4BA9C0012B453 /* ComplexLayoutViewController.swift */; };
 		4EAB911226F4BCF70012B453 /* ColorBox2Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911126F4BCF70012B453 /* ColorBox2Component.swift */; };
+		4EAB911426F4C1F50012B453 /* NumberBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB911326F4C1F50012B453 /* NumberBoxComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,6 @@
 		4EAB90EC26F4AA130012B453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EAB90EE26F4AA130012B453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EAB90FA26F4AA7C0012B453 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		4EAB90FE26F4AB380012B453 /* NumberBoxComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberBoxComponent.swift; path = ../../../01StaticList/01StaticList/Components/NumberBoxComponent.swift; sourceTree = "<group>"; };
 		4EAB910026F4AB670012B453 /* StaticListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListViewController.swift; sourceTree = "<group>"; };
 		4EAB910226F4ABC20012B453 /* ExampleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleComponent.swift; sourceTree = "<group>"; };
 		4EAB910426F4B1FB0012B453 /* ColorBoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBoxComponent.swift; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		4EAB910C26F4B90B0012B453 /* SectionHeaderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderComponent.swift; sourceTree = "<group>"; };
 		4EAB910F26F4BA9C0012B453 /* ComplexLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexLayoutViewController.swift; sourceTree = "<group>"; };
 		4EAB911126F4BCF70012B453 /* ColorBox2Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBox2Component.swift; sourceTree = "<group>"; };
+		4EAB911326F4C1F50012B453 /* NumberBoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBoxComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,10 @@
 		4EAB90FD26F4AB250012B453 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				4EAB90FE26F4AB380012B453 /* NumberBoxComponent.swift */,
 				4EAB910226F4ABC20012B453 /* ExampleComponent.swift */,
 				4EAB910426F4B1FB0012B453 /* ColorBoxComponent.swift */,
 				4EAB911126F4BCF70012B453 /* ColorBox2Component.swift */,
+				4EAB911326F4C1F50012B453 /* NumberBoxComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -228,9 +228,9 @@
 				4EAB90E326F4AA130012B453 /* SceneDelegate.swift in Sources */,
 				4EAB910126F4AB670012B453 /* StaticListViewController.swift in Sources */,
 				4EAB911026F4BA9C0012B453 /* ComplexLayoutViewController.swift in Sources */,
+				4EAB911426F4C1F50012B453 /* NumberBoxComponent.swift in Sources */,
 				4EAB910526F4B1FB0012B453 /* ColorBoxComponent.swift in Sources */,
 				4EAB910826F4B2450012B453 /* ColorGridViewController.swift in Sources */,
-				4EAB90FF26F4AB380012B453 /* NumberBoxComponent.swift in Sources */,
 				4EAB910326F4ABC20012B453 /* ExampleComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
