@@ -25,6 +25,7 @@ class ComplexLayoutViewController: BaseViewController {
     var randomColor: UIColor {
         return colors.randomElement() ?? .cyan
     }
+    
     override func render() {
         renderer.render(of: Array(0..<10)) { index in
             Section(id: index) {
