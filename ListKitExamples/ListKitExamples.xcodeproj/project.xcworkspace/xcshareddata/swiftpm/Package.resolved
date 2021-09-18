@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "ListKit",
-        "repositoryURL": "git@github.com:ReactComponentKit/ListKit.git",
+        "repositoryURL": "https://github.com/ReactComponentKit/ListKit.git",
         "state": {
-          "branch": "main",
-          "revision": "3447301ad494a7c993318bce61e927e2fe6766e2",
-          "version": null
+          "branch": null,
+          "revision": "e8c85205d3e4f58f548be8f2adaacb04c309aa8f",
+          "version": "1.0.0"
         }
       },
       {

@@ -14,13 +14,13 @@
 		4E83545226F5DDDE00DD6D57 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83545126F5DDDE00DD6D57 /* Todo.swift */; };
 		4E83545526F5E08A00DD6D57 /* TodoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83545426F5E08A00DD6D57 /* TodoComponent.swift */; };
 		4E83545726F5E97600DD6D57 /* EmptyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83545626F5E97600DD6D57 /* EmptyComponent.swift */; };
+		4E83545A26F6364A00DD6D57 /* ListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E83545926F6364A00DD6D57 /* ListKit */; };
 		4EAB90E126F4AA130012B453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90E026F4AA130012B453 /* AppDelegate.swift */; };
 		4EAB90E326F4AA130012B453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90E226F4AA130012B453 /* SceneDelegate.swift */; };
 		4EAB90E526F4AA130012B453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90E426F4AA130012B453 /* ViewController.swift */; };
 		4EAB90E826F4AA130012B453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB90E626F4AA130012B453 /* Main.storyboard */; };
 		4EAB90EA26F4AA130012B453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB90E926F4AA130012B453 /* Assets.xcassets */; };
 		4EAB90ED26F4AA130012B453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB90EB26F4AA130012B453 /* LaunchScreen.storyboard */; };
-		4EAB90F626F4AA3D0012B453 /* ListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4EAB90F526F4AA3D0012B453 /* ListKit */; };
 		4EAB90F926F4AA500012B453 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4EAB90F826F4AA500012B453 /* SnapKit */; };
 		4EAB90FB26F4AA7C0012B453 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90FA26F4AA7C0012B453 /* BaseViewController.swift */; };
 		4EAB910126F4AB670012B453 /* StaticListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB910026F4AB670012B453 /* StaticListViewController.swift */; };
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EAB90F626F4AA3D0012B453 /* ListKit in Frameworks */,
+				4E83545A26F6364A00DD6D57 /* ListKit in Frameworks */,
 				4E83544926F5D94D00DD6D57 /* SwipeCellKit in Frameworks */,
 				4EAB90F926F4AA500012B453 /* SnapKit in Frameworks */,
 			);
@@ -222,9 +222,9 @@
 			);
 			name = ListKitExamples;
 			packageProductDependencies = (
-				4EAB90F526F4AA3D0012B453 /* ListKit */,
 				4EAB90F826F4AA500012B453 /* SnapKit */,
 				4E83544826F5D94D00DD6D57 /* SwipeCellKit */,
+				4E83545926F6364A00DD6D57 /* ListKit */,
 			);
 			productName = ListKitExamples;
 			productReference = 4EAB90DD26F4AA130012B453 /* ListKitExamples.app */;
@@ -254,9 +254,9 @@
 			);
 			mainGroup = 4EAB90D426F4AA130012B453;
 			packageReferences = (
-				4EAB90F426F4AA3D0012B453 /* XCRemoteSwiftPackageReference "ListKit" */,
 				4EAB90F726F4AA4F0012B453 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				4E83544726F5D94D00DD6D57 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+				4E83545826F6364A00DD6D57 /* XCRemoteSwiftPackageReference "ListKit" */,
 			);
 			productRefGroup = 4EAB90DE26F4AA130012B453 /* Products */;
 			projectDirPath = "";
@@ -519,12 +519,12 @@
 				minimumVersion = 2.7.1;
 			};
 		};
-		4EAB90F426F4AA3D0012B453 /* XCRemoteSwiftPackageReference "ListKit" */ = {
+		4E83545826F6364A00DD6D57 /* XCRemoteSwiftPackageReference "ListKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:ReactComponentKit/ListKit.git";
+			repositoryURL = "https://github.com/ReactComponentKit/ListKit.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 		4EAB90F726F4AA4F0012B453 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
@@ -543,9 +543,9 @@
 			package = 4E83544726F5D94D00DD6D57 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
 			productName = SwipeCellKit;
 		};
-		4EAB90F526F4AA3D0012B453 /* ListKit */ = {
+		4E83545926F6364A00DD6D57 /* ListKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4EAB90F426F4AA3D0012B453 /* XCRemoteSwiftPackageReference "ListKit" */;
+			package = 4E83545826F6364A00DD6D57 /* XCRemoteSwiftPackageReference "ListKit" */;
 			productName = ListKit;
 		};
 		4EAB90F826F4AA500012B453 /* SnapKit */ = {
