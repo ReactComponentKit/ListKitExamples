@@ -39,7 +39,7 @@ class TodoViewController: BaseViewController {
         renderer.render {
             Section(id: Sections.main) {
                 if todos.isEmpty {
-                    VGroup(width: .fractionalWidth(1.0), height: .fractionalHeight(1.0)) {
+                    VGroup(width: .fractionalWidth(1.0), height: .estimated(30)) {
                         EmptyComponent(title: "Add New Todo!")
                     }
                 } else {

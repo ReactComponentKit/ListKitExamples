@@ -20,7 +20,7 @@ struct EmptyComponent: Component {
     }
     
     func layoutSize() -> NSCollectionLayoutSize {
-        return .init(widthDimension: .fractionalWidth(1.0), heightDimension: .fractionalHeight(1.0))
+        return .init(widthDimension: .fractionalWidth(1.0), heightDimension: .absolute(100))
     }
     
     func render(in content: UILabel) {
