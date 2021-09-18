@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E83544926F5D94D00DD6D57 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E83544826F5D94D00DD6D57 /* SwipeCellKit */; };
+		4E83544C26F5D9AF00DD6D57 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83544B26F5D9AF00DD6D57 /* TodoViewController.swift */; };
+		4E83544E26F5D9CA00DD6D57 /* TodoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83544D26F5D9CA00DD6D57 /* TodoDataSource.swift */; };
+		4E83545026F5DD6E00DD6D57 /* Deletable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83544F26F5DD6E00DD6D57 /* Deletable.swift */; };
+		4E83545226F5DDDE00DD6D57 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83545126F5DDDE00DD6D57 /* Todo.swift */; };
+		4E83545526F5E08A00DD6D57 /* TodoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83545426F5E08A00DD6D57 /* TodoComponent.swift */; };
+		4E83545726F5E97600DD6D57 /* EmptyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E83545626F5E97600DD6D57 /* EmptyComponent.swift */; };
 		4EAB90E126F4AA130012B453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90E026F4AA130012B453 /* AppDelegate.swift */; };
 		4EAB90E326F4AA130012B453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90E226F4AA130012B453 /* SceneDelegate.swift */; };
 		4EAB90E526F4AA130012B453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB90E426F4AA130012B453 /* ViewController.swift */; };
@@ -32,6 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E83544B26F5D9AF00DD6D57 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		4E83544D26F5D9CA00DD6D57 /* TodoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDataSource.swift; sourceTree = "<group>"; };
+		4E83544F26F5DD6E00DD6D57 /* Deletable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deletable.swift; sourceTree = "<group>"; };
+		4E83545126F5DDDE00DD6D57 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		4E83545426F5E08A00DD6D57 /* TodoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoComponent.swift; sourceTree = "<group>"; };
+		4E83545626F5E97600DD6D57 /* EmptyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyComponent.swift; sourceTree = "<group>"; };
 		4EAB90DD26F4AA130012B453 /* ListKitExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListKitExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAB90E026F4AA130012B453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EAB90E226F4AA130012B453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EAB90F626F4AA3D0012B453 /* ListKit in Frameworks */,
+				4E83544926F5D94D00DD6D57 /* SwipeCellKit in Frameworks */,
 				4EAB90F926F4AA500012B453 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E83544A26F5D95E00DD6D57 /* TodoExample */ = {
+			isa = PBXGroup;
+			children = (
+				4E83545326F5DDF100DD6D57 /* Components */,
+				4E83544B26F5D9AF00DD6D57 /* TodoViewController.swift */,
+				4E83544D26F5D9CA00DD6D57 /* TodoDataSource.swift */,
+				4E83544F26F5DD6E00DD6D57 /* Deletable.swift */,
+				4E83545126F5DDDE00DD6D57 /* Todo.swift */,
+			);
+			path = TodoExample;
+			sourceTree = "<group>";
+		};
+		4E83545326F5DDF100DD6D57 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4E83545426F5E08A00DD6D57 /* TodoComponent.swift */,
+				4E83545626F5E97600DD6D57 /* EmptyComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		4EAB90D426F4AA130012B453 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +130,7 @@
 				4EAB910E26F4BA7E0012B453 /* ComplexLayoutExample */,
 				4EAB911526F4D84E0012B453 /* EmojiExample */,
 				4EAB911C26F4F0590012B453 /* CustomEffectExample */,
+				4E83544A26F5D95E00DD6D57 /* TodoExample */,
 				4EAB90E026F4AA130012B453 /* AppDelegate.swift */,
 				4EAB90E226F4AA130012B453 /* SceneDelegate.swift */,
 				4EAB90FA26F4AA7C0012B453 /* BaseViewController.swift */,
@@ -188,6 +224,7 @@
 			packageProductDependencies = (
 				4EAB90F526F4AA3D0012B453 /* ListKit */,
 				4EAB90F826F4AA500012B453 /* SnapKit */,
+				4E83544826F5D94D00DD6D57 /* SwipeCellKit */,
 			);
 			productName = ListKitExamples;
 			productReference = 4EAB90DD26F4AA130012B453 /* ListKitExamples.app */;
@@ -219,6 +256,7 @@
 			packageReferences = (
 				4EAB90F426F4AA3D0012B453 /* XCRemoteSwiftPackageReference "ListKit" */,
 				4EAB90F726F4AA4F0012B453 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4E83544726F5D94D00DD6D57 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
 			);
 			productRefGroup = 4EAB90DE26F4AA130012B453 /* Products */;
 			projectDirPath = "";
@@ -250,13 +288,19 @@
 				4EAB911B26F4DAB50012B453 /* EmojiHelper.swift in Sources */,
 				4EAB910B26F4B3700012B453 /* SectionBackgroundComponent.swift in Sources */,
 				4EAB911E26F4F0780012B453 /* CustomEffectViewController.swift in Sources */,
+				4E83544E26F5D9CA00DD6D57 /* TodoDataSource.swift in Sources */,
+				4E83545026F5DD6E00DD6D57 /* Deletable.swift in Sources */,
 				4EAB911926F4D99C0012B453 /* EmojiBoxComponent.swift in Sources */,
 				4EAB90E526F4AA130012B453 /* ViewController.swift in Sources */,
+				4E83545526F5E08A00DD6D57 /* TodoComponent.swift in Sources */,
+				4E83545226F5DDDE00DD6D57 /* Todo.swift in Sources */,
 				4EAB90FB26F4AA7C0012B453 /* BaseViewController.swift in Sources */,
 				4EAB90E126F4AA130012B453 /* AppDelegate.swift in Sources */,
 				4EAB910D26F4B90B0012B453 /* SectionHeaderComponent.swift in Sources */,
 				4EAB911726F4D8670012B453 /* EmojiViewController.swift in Sources */,
+				4E83545726F5E97600DD6D57 /* EmptyComponent.swift in Sources */,
 				4EAB911226F4BCF70012B453 /* ColorBox2Component.swift in Sources */,
+				4E83544C26F5D9AF00DD6D57 /* TodoViewController.swift in Sources */,
 				4EAB90E326F4AA130012B453 /* SceneDelegate.swift in Sources */,
 				4EAB910126F4AB670012B453 /* StaticListViewController.swift in Sources */,
 				4EAB911026F4BA9C0012B453 /* ComplexLayoutViewController.swift in Sources */,
@@ -467,6 +511,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4E83544726F5D94D00DD6D57 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
 		4EAB90F426F4AA3D0012B453 /* XCRemoteSwiftPackageReference "ListKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:ReactComponentKit/ListKit.git";
@@ -486,6 +538,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4E83544826F5D94D00DD6D57 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E83544726F5D94D00DD6D57 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
 		4EAB90F526F4AA3D0012B453 /* ListKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4EAB90F426F4AA3D0012B453 /* XCRemoteSwiftPackageReference "ListKit" */;

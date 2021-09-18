@@ -16,10 +16,14 @@ open class BaseViewController: UIViewController {
         return collectionView
     }()
     
-    lazy var renderer: ComposeRenderer = ComposeRenderer(dataSource: dataSource)
+    lazy var renderer: ComposeRenderer = ComposeRenderer(dataSource: dataSource, cellClass: cellClass)
     
     open var dataSource: DataSource {
         PlainDataSource()
+    }
+    
+    open var cellClass: AnyClass? {
+        return nil
     }
     
     open override func viewDidLoad() {

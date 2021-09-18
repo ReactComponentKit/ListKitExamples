@@ -15,6 +15,7 @@ class ViewController: BaseViewController {
         case complexLayoutExample
         case emojiExample
         case customEffectExample
+        case todoExample
     }
     
     override func viewDidLoad() {
@@ -41,6 +42,9 @@ class ViewController: BaseViewController {
                     ExampleComponent(title: "Custom Effect Example") { [weak self] in
                         self?.goto(scene: .customEffectExample)
                     }
+                    ExampleComponent(title: "Todo Example") { [weak self] in
+                        self?.goto(scene: .todoExample)
+                    }
                 }
             }
         }
@@ -59,6 +63,8 @@ class ViewController: BaseViewController {
             vc = EmojiViewController()
         case .customEffectExample:
             vc = CustomEffectViewController()
+        case .todoExample:
+            vc = TodoViewController()
         }
         navigationController?.pushViewController(vc, animated: true)
     }

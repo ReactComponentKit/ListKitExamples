@@ -6,7 +6,7 @@
         "repositoryURL": "git@github.com:ReactComponentKit/ListKit.git",
         "state": {
           "branch": "main",
-          "revision": "5edf5c68041bf3c19a3866fde665ac6c8e5f90b8",
+          "revision": "3447301ad494a7c993318bce61e927e2fe6766e2",
           "version": null
         }
       },
@@ -17,6 +17,15 @@
           "branch": null,
           "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
           "version": "5.0.1"
+        }
+      },
+      {
+        "package": "SwipeCellKit",
+        "repositoryURL": "https://github.com/SwipeCellKit/SwipeCellKit.git",
+        "state": {
+          "branch": null,
+          "revision": "7219cad3098637176ace311510d11467dbfb9bb0",
+          "version": "2.7.1"
         }
       }
     ]
