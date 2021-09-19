@@ -5,9 +5,9 @@
         "package": "ListKit",
         "repositoryURL": "https://github.com/ReactComponentKit/ListKit.git",
         "state": {
-          "branch": null,
-          "revision": "e8c85205d3e4f58f548be8f2adaacb04c309aa8f",
-          "version": "1.0.0"
+          "branch": "main",
+          "revision": "3c181867a41ac5e803dbcb19ae7215101d866e54",
+          "version": null
         }
       },
       {

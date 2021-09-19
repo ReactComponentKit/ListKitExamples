@@ -27,7 +27,7 @@ class TodoViewController: BaseViewController {
         }
     }
     
-    override var dataSource: DataSource {
+    override var dataSource: ListKitDataSource {
         return TodoDataSource()
     }
     

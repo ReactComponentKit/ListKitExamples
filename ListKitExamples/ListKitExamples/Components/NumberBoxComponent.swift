@@ -42,6 +42,14 @@ struct NumberBoxComponent: Component {
         return []
     }
     
+    func willDisplay(content: NumberBoxComponentContentView) {
+        print(#function)
+    }
+    
+    func didEndDisplay(content: NumberBoxComponentContentView) {
+        print(#function)
+    }
+    
     func render(in content: NumberBoxComponentContentView) {
         content.label.text = "\(number)"
     }

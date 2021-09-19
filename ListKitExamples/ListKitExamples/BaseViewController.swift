@@ -18,7 +18,7 @@ open class BaseViewController: UIViewController {
     
     lazy var renderer: ComposeRenderer = ComposeRenderer(dataSource: dataSource, cellClass: cellClass)
     
-    open var dataSource: DataSource {
+    open var dataSource: ListKitDataSource {
         PlainDataSource()
     }
     

@@ -21,7 +21,7 @@ class EmojiViewController: BaseViewController {
         }
     }
     
-    override var dataSource: DataSource {
+    override var dataSource: ListKitDataSource {
         DiffableDataSource()
     }
     
